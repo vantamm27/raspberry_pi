@@ -1,0 +1,2 @@
+B1: Download file os trên từ trang chủ https://www.raspberrypi.org/downloads/raspbian/
+B2: Dùng lệnh dd để  ghi os vào ổ đĩa https://github.com/vantamm27/install/blob/master/dd
