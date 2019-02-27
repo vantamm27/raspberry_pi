@@ -1,0 +1,12 @@
+SSH thông quan uart 
+
+B1: Xác định chân GND,5V, TX, RX trên raspberry v usb uart 
+
+B2: Dùng usb uart nói vào raspberry 
+  USB uart  --  GND --  GND --  Raspberry pi
+            --  5V  --  5V  --  
+            --  RX  --  TX  --
+            --  TX  --  RX  --
+B3: Cấm usb uart vào  máy tính
+B4: Dùng lệnh screen để ssh vào raspberry  https://github.com/vantamm27/install/blob/master/screen
+
