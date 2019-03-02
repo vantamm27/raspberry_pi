@@ -1,0 +1,42 @@
+Cấu hình wifi cho raspberry pi
+
+B1: Edit file file /etc/wpa_supplicant/wpa_supplicant.conf
+  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+B2: Thêm cấu hình wifi cho thiết bị vào cuối file 
+
+
+
+TH: Wifi không có password
+network={
+        ssid=">ssid>"
+        key_mgmt=NONE
+}
+TH: Wifi có password
+
+network={
+        ssid="<ssid>"
+        psk="nobinobi"
+        key_mgmt=WPA-PSK
+}
+
+VD: /etc/wpa_supplicant/wpa_supplicant.conf
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=GB
+
+network={
+        ssid="VNG-F10"
+        key_mgmt=NONE
+}
+
+network={
+        ssid="S7 cong"
+        psk="nobinobi"
+        key_mgmt=WPA-PSK
+}
+
+
+
+
+
