@@ -1,0 +1,6 @@
+http://martinpennock.com/blog/how-to-remove-black-border-from-raspberry-pi-display/
+
+sudo nano /boot/config.txt
+disable_overscan=1
+
+sudo reboot now
